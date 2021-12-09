@@ -1,0 +1,9 @@
+
+Scan Time:     2021-07-04 18:47:03
+Target File:   /home/kali/00101201_04D30000.pkg
+MD5 Checksum:  e42597619bcdaeaa0cae28fbaa8dd32a
+Signatures:    391
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+4588          0x11EC          Squashfs filesystem, little endian, version 4.0, compression:gzip (non-standard type definition), size: 142515345 bytes, 6718 inodes, blocksize: 131072 bytes, created: 2018-02-02 03:21:36
+

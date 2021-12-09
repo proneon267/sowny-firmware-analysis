@@ -1,0 +1,32 @@
+
+# (2.) is the newer firmware
+# .pkg file of (2.) is encrypted while that of (1.) is not.
+
+  |ZIP NAME
+--|------------------------------------------------
+1.|sony_tvupdate_2017_1235_dnf_auth
+2.|sony_tvupdate_2017_1604_dnf_auth
+
+# Zip Name likely doesn't matter, since it is instructed to extract the folder from the zip
+
+  |FOLDER NAME				HEX		DECIMAL
+--|--------------------------------------------------------------------
+1.|sony_dtv02B40B0AB4BA_00101201	02B40B0AB4BA	2972302619834
+2.|sony_dtv02B40B0AB4BE_00101201	02B40B0AB4BE	2972302619838
+
+# Folder Name looks like it matters, since there is change between versions, 
+and it is instructed to place the pkg with folder
+
+  |NAME				HEX		DECIMAL
+--|-----------------------------------------------------------
+1.|00101201_04D30000.pkg	04D30000	80936960
+2.|00101201_06440000.pkg	06440000	105119744
+
+# pkg name also looks like it matters, since there is a change between versions,
+and the newer one has a higher value
+
+# If suitable filenames are used for custom firmware image, maybe it will recognise it as a update.
+
+# Known directory structure till now:
+|-3rd/
+|-3rd_rw/upgrade
